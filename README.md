@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to set the working directory.  The original Dockerfile attempts to copy files and run commands without specifying where these operations should occur, leading to build failures. The fixed Dockerfile demonstrates the correct way to handle this by setting the working directory using the `WORKDIR` instruction.
